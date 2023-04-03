@@ -1,0 +1,92 @@
+.form-control-read-only {
+  border: none;
+  text-align: left !important;
+  cursor: default;
+  display: flex;
+  margin-top: -15px;
+
+}
+
+.form-control-read-only:focus {
+  outline: none;
+  box-shadow: none;
+  
+}
+
+.shadow {
+  background: #F08A5D;
+  color: white;
+  align-items: left;
+  border-radius: 0;
+  font-size: 17px;
+  font-weight:normal;
+  user-select: none !important;
+}
+
+.form-label {
+  color: gray;
+  text-align: left !important;
+  margin-left: 4%;
+  margin-top: 7%;
+}
+
+.column {
+  align-items: left;
+}
+
+.risk{
+  display: 'flex';
+   flex-direction: 'row';
+    align-items: 'center';
+     margin-bottom: '20px' 
+}
+
+.col{
+  color: white;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+
+.form-col {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 45%;
+}
+
+
+.form-label-custom {
+  font-weight: normal;
+  margin-bottom: 0.5rem;
+  color: white;
+  font-size: 17px;
+ 
+}
+
+.form-control-custom[readonly] {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  outline: none;
+  cursor: default;
+  pointer-events: none;
+  color: white;
+  font-size: 17px;
+  margin-top: 11px;
+}
+
+.button{
+  color: #F08A5D;
+  border-color: #F08A5D;
+  
+}
+
+.button:hover{
+  color: white;
+  background-color: #F08A5D;
+}
