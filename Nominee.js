@@ -20,7 +20,7 @@ const Application = () => {
           <Form>
             <Form.Group>
               <Row>
-                <Col>
+                <Col >
                   <Form.Label className="form-label">Name</Form.Label>
                   <Form.Control type="text" value={userDetails.name} className="form-control-read-only" readOnly />
                 </Col>
@@ -56,11 +56,11 @@ const Application = () => {
                 </Col>
               </Row>
               <Row className="my-2">
-                <Col >
+                <Col md={3}>
                   <Form.Label className="form-label">Current Residence Phone No.</Form.Label>
                   <Form.Control type="text" value={userDetails.name} className="form-control-read-only" readOnly />
                 </Col>
-                <Col>
+                <Col md={3}>
                   <Form.Label className="form-label">Permanent Mobile No.</Form.Label>
                   <Form.Control type="text" value={userDetails.name} className="form-control-read-only" readOnly />
                 </Col>
